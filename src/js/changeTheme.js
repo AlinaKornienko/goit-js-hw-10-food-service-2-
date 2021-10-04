@@ -20,13 +20,9 @@ refs.input.addEventListener('change', onInputChangeTheme);
 
 function onInputChangeTheme() {
   if (refs.input.checked) {
-    // refs.body.classList.add('dark-theme');
-    // refs.body.classList.remove('light-theme');
     changeClass();
     changeLockalStorage(Theme.DARK);
   } else {
-    // refs.body.classList.add('light-theme');
-    // refs.body.classList.remove('dark-theme');
     changeClass();
     changeLockalStorage(Theme.LIGHT);
   }
