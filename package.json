@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlinaKornienko/goit-js-hw-10-food-service-2-.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlinaKornienko/goit-js-hw-10-food-service-2-/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "homepage": "https://github.com/AlinaKornienko/goit-js-hw-10-food-service-2-#readme",
   "dependencies": {
