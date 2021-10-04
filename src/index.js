@@ -1,3 +1,3 @@
 import './sass/main.scss';
-import './js/changeTheme.js';
-import './js/createElement.js';
+import './js/changeTheme';
+import './js/createElement';
